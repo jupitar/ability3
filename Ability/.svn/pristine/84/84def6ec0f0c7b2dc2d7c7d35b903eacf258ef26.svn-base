@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    android:id="@+id/capture_container"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fitsSystemWindows="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <RelativeLayout
+        android:visibility="gone"
+        android:id="@+id/rel_audio"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:paddingBottom="8dp"
+        android:paddingLeft="60dp"
+        android:paddingRight="60dp"
+        android:paddingTop="8dp"
+        android:layout_centerInParent="true">
+
+        <com.ustcinfo.mobile.platform.ability.widgets.Indicator
+            android:id="@+id/indicator"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:background="@color/base_red"
+            />
+        <ImageView
+            android:id="@+id/iv_play_aduio"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/icon_play" />
+
+        <!--<ImageView-->
+            <!--android:id="@+id/iv_delete_audio"-->
+            <!--android:layout_width="20dp"-->
+            <!--android:layout_height="20dp"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:src="@mipmap/index_item_detele" />-->
+
+
+    </RelativeLayout>
+    <!--<RelativeLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="140dp"-->
+        <!--android:gravity="center"-->
+        <!--&gt;-->
+        <!--<ImageView-->
+            <!--android:id="@+id/record_anim"-->
+            <!--android:layout_width="80dp"-->
+            <!--android:layout_height="80dp"-->
+            <!--android:src="@mipmap/record_voice"-->
+           <!--android:layout_centerInParent="true"-->
+            <!--/>-->
+        <!--<ProgressBar-->
+            <!--android:id="@+id/progressBar"-->
+            <!--android:layout_width="80dp"-->
+            <!--android:layout_height="80dp"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:layout_centerInParent="true"-->
+            <!--android:indeterminateDrawable="@drawable/progressbar"-->
+           <!--/>-->
+        <!--<TextView-->
+            <!--android:id="@+id/record_time"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="30dp"-->
+            <!--android:layout_marginTop="40dp"-->
+            <!--android:layout_marginBottom="20dp"-->
+            <!--android:layout_below="@id/progressBar"-->
+            <!--android:gravity="center"-->
+            <!--android:text="录音中："-->
+            <!--/>-->
+    <!--</RelativeLayout>-->
+
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="vertical"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_marginLeft="10dp"-->
+        <!--android:layout_marginRight="10dp"-->
+       <!--&gt;-->
+
+
+        <!--<Button-->
+            <!--android:id="@+id/pauseRecord"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="@drawable/shape"-->
+            <!--android:layout_marginBottom="20dp"-->
+            <!--android:text="结束录音"-->
+            <!--android:textColor="#ffffff"-->
+            <!--android:visibility="invisible"-->
+            <!--/>-->
+    <!--</LinearLayout>-->
+
+    <Button
+        android:id="@+id/record_voice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="录音"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        />
+
+</RelativeLayout>

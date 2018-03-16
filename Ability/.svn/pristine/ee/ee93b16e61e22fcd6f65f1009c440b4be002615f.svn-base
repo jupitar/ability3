@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Ability</string>
+    <string name="tv_load">努力加载中......</string>
+    <string name="btn_picture">图片</string>
+    <string name="btn_light">灯光</string>
+    <string name="qrcode">二维码</string>
+    <string name="barcode">条形码</string>
+    <string name="error_barcode">解析失败</string>
+    <string name="sdcard_exception">没找到内存卡</string>
+    <string name="photo_exception">获取图片失败</string>
+    <string name="cancel">取消</string>
+    <string name="voice_rec">手指上滑,取消发送</string>
+    <string name="voice_cancel">松开手指,取消发送</string>
+    <string name="voice_short">录音时间太短</string>
+    <string name="voice_failure">录音失败！</string>
+</resources>

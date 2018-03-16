@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="debugable">false</string>
+    <string name="background">true</string>
+    <string name="launch">true</string>
+    <string name="backgroundTime">10</string>
+    <string name="launchTime">1440</string>
+    <string name="delay">0</string>
+    <string name="appId">1106338768</string>
+    <string name="positionId">8060527498096295</string>
+    <string name="cityCode">0551</string>
+    <string name="percent">3</string>
+</resources>
